@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: 60px;
+}
+
+.subtitle{
+    margin-top: 60px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.box{
+    margin-top: 30px;
+    width: 40vw;
+    height: 10vh;
+    background-color: crimson;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.watsap{
+    color: white;
+}
