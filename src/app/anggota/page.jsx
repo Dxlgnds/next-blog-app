@@ -17,7 +17,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Azka Ramadhan</h3>
-            <span className={styles.detail}>..........</span>
+            <span className={styles.detail}>Fotografi</span>
           </div>
           <Link href="https://instagram.com/azkzr_" target='_blank'>
             <div className={styles.sosmed}>
@@ -45,7 +45,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Raden Citra</h3>
-            <span className={styles.detail}>..........</span>
+            <span className={styles.detail}>Ketua Umum</span>
           </div>
           <Link href="https://instagram.com/__radencitra" target='_blank'>
             <div className={styles.sosmed}>
@@ -61,7 +61,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Tubagus Kinaya</h3>
-            <span className={styles.detail}>..........</span>
+            <span className={styles.detail}>Tim IT</span>
           </div>
           <Link href="https://instagram.com/katz_una" target='_blank'>
             <div className={styles.sosmed}>
@@ -75,7 +75,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Zahranisa Ulva</h3>
-            <span className={styles.detail}>..........</span>
+            <span className={styles.detail}>Jurnalistik</span>
           </div>
           <Link href="https://instagram.com/jeraanomi" target='_blank'>
             <div className={styles.sosmed}>
@@ -89,7 +89,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Ghanisa Shabi</h3>
-            <span className={styles.detail}>..........</span>
+            <span className={styles.detail}>Sekretaris</span>
           </div>
           <Link href="https://instagram.com/shxbie__" target='_blank'>
             <div className={styles.sosmed}>
@@ -105,7 +105,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Muhammad Dinan</h3>
-            <span className={styles.detail}>Tim IT & Desain</span>
+            <span className={styles.detail}>Tim IT</span>
           </div>
           <Link href="https://instagram.com/mhmddinan_" target='_blank'>
             <div className={styles.sosmed}>
@@ -119,7 +119,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Rizky Alfaridzi</h3>
-            <span className={styles.detail}>..........</span>
+            <span className={styles.detail}>Fotografi</span>
           </div>
           <Link href="https://instagram.com/rick_nelson_becker" target='_blank'>
             <div className={styles.sosmed}>
