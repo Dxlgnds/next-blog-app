@@ -107,7 +107,7 @@ const Anggota = () => {
             <h3 className={styles.username}>Rizky Alfaridzi</h3>
             <span className={styles.detail}>Fotografi</span>
           </div>
-          <Link href="https://instagram.com/mhmddinan_" target='_blank'>
+          <Link href="https://instagram.com/rick_nelson_becker" target='_blank'>
             <div className={styles.sosmed}>
                 <Image src="/instagram-outline.png" width={16} height={16}/>
             </div>
@@ -121,7 +121,7 @@ const Anggota = () => {
             <h3 className={styles.username}>Muhammad Dinan</h3>
             <span className={styles.detail}>Tim IT</span>
           </div>
-          <Link href="https://instagram.com/rick_nelson_becker" target='_blank'>
+          <Link href="https://instagram.com/mhmddinan_" target='_blank'>
             <div className={styles.sosmed}>
                 <Image src="/instagram-outline.png" width={16} height={16}/>
             </div>
