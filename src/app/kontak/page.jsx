@@ -13,7 +13,7 @@ const Kontak = () => {
         <Link href="https://whatsapp.com" target='_blank'>
           <div className={styles.box}>
             <div className={styles.imageContainer}>
-              <Image src="/whatsapp-white.png" width={40} height={40}/>
+              <Image src="/whatsapp-white.png" width={40} height={40} classname={styles.image}/>
             </div>
             <div className={styles.textContainer}>
               <h3 className={styles.watsap}>Whatsapp</h3>
