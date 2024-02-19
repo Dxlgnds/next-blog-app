@@ -3,7 +3,7 @@ import styles from './member.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Member = () => {
+const Anggota = () => {
 
   return (
     <div className={styles.container}>
@@ -74,7 +74,7 @@ const Member = () => {
             <Image src="/p1.jpeg" width={75} height={75} className={styles.image}/>
           </div>
           <div className={styles.textContainer}>
-            <h3 className={styles.username}>Zahranisa Ulva</h3>
+            <h3 className={styles.username}>Zahrannisa Ulva</h3>
             <span className={styles.detail}>Jurnalistik</span>
           </div>
           <Link href="https://instagram.com/jeraanomi" target='_blank'>
@@ -101,11 +101,11 @@ const Member = () => {
       <div className={styles.rowEnd}>
         <div className={styles.profile}>
           <div className={styles.imageContainer}>
-            <Image src="/nilou.jpg" width={75} height={75} className={styles.image}/>
+            <Image src="/p1.jpeg" width={75} height={75} className={styles.image}/>
           </div>
           <div className={styles.textContainer}>
-            <h3 className={styles.username}>Muhammad Dinan</h3>
-            <span className={styles.detail}>Tim IT</span>
+            <h3 className={styles.username}>Rizky Alfaridzi</h3>
+            <span className={styles.detail}>Fotografi</span>
           </div>
           <Link href="https://instagram.com/mhmddinan_" target='_blank'>
             <div className={styles.sosmed}>
@@ -115,11 +115,11 @@ const Member = () => {
         </div>
         <div className={styles.profile}>
           <div className={styles.imageContainer}>
-            <Image src="/p1.jpeg" width={75} height={75} className={styles.image}/>
+            <Image src="/nilou.jpg" width={75} height={75} className={styles.image}/>
           </div>
           <div className={styles.textContainer}>
-            <h3 className={styles.username}>Rizky Alfaridzi</h3>
-            <span className={styles.detail}>Fotografi</span>
+            <h3 className={styles.username}>Muhammad Dinan</h3>
+            <span className={styles.detail}>Tim IT</span>
           </div>
           <Link href="https://instagram.com/rick_nelson_becker" target='_blank'>
             <div className={styles.sosmed}>
@@ -132,4 +132,4 @@ const Member = () => {
   )
 }
 
-export default Member
+export default Anggota
