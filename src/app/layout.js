@@ -9,8 +9,8 @@ import AuthProvider from '@/providers/AuthProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Arkanarii : Reporting Everything.',
-  description: 'This website designed by @LlamaDev Re-Code By @Dxlgnds, Thanks for the course @LlamaDev',
+  title: 'Arkanarii : Jurnalistik & Fotografi',
+  description: 'Website Resmi Ekstrakurikuler Arkanarii',
 }
 
 export default function RootLayout({ children }) {
