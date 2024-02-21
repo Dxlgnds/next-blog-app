@@ -93,12 +93,4 @@
         gap: 50px;
         margin-bottom: 50px;
     }
-
-    .rowEnd{
-        flex-direction: column;
-        justify-content: center;
-        height: 25vh;
-        gap: 50px;
-        margin-bottom: 20px;
-    }
 }

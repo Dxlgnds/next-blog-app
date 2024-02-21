@@ -9,7 +9,7 @@ import AuthProvider from '@/providers/AuthProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Arkanarii : Jurnalistik & Fotografi',
+  title: 'Arkanarii : Jurnalistik & Fotografi.',
   description: 'Website Resmi Ekstrakurikuler Arkanarii',
 }
 

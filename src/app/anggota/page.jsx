@@ -98,14 +98,14 @@ const Member = () => {
           </Link>
         </div>
       </div>
-      <div className={styles.rowEnd}>
+      <div className={styles.row}>
         <div className={styles.profile}>
           <div className={styles.imageContainer}>
             <Image src="/nilou.jpg" width={75} height={75} className={styles.image}/>
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Muhammad Dinan</h3>
-            <span className={styles.detail}>Lead IT & Desain</span>
+            <span className={styles.detail}>Tim IT</span>
           </div>
           <Link href="https://instagram.com/mhmddinan_" target='_blank'>
             <div className={styles.sosmed}>
@@ -122,6 +122,20 @@ const Member = () => {
             <span className={styles.detail}>Fotografi</span>
           </div>
           <Link href="https://instagram.com/rick_nelson_becker" target='_blank'>
+            <div className={styles.sosmed}>
+                <Image src="/instagram-outline.png" width={16} height={16}/>
+            </div>
+          </Link>
+        </div>
+        <div className={styles.profile}>
+          <div className={styles.imageContainer}>
+            <Image src="/p1.jpeg" width={75} height={75} className={styles.image}/>
+          </div>
+          <div className={styles.textContainer}>
+            <h3 className={styles.username}>Alfian Fikri</h3>
+            <span className={styles.detail}>Humas</span>
+          </div>
+          <Link href="https://instagram.com/all.kims" target='_blank'>
             <div className={styles.sosmed}>
                 <Image src="/instagram-outline.png" width={16} height={16}/>
             </div>

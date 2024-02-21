@@ -12,9 +12,6 @@ const Kontak = () => {
       <h3 className={styles.subtitle}>Mau tanya tanya dulu ?</h3>
         <Link href="https://whatsapp.com" target='_blank'>
           <div className={styles.box}>
-            <div className={styles.imageContainer}>
-              <Image src="/whatsapp-white.png" width={40} height={40} className={styles.image}/>
-            </div>
             <div className={styles.textContainer}>
               <h3 className={styles.watsap}>Whatsapp</h3>
             </div>

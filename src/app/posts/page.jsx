@@ -8,7 +8,7 @@ const SinglePage = () => {
     <div className={styles.container}>
         <div className={styles.infoContainer}>
             <div className={styles.textContainer}>
-                <h1 className={styles.title}>Peresmian Ekstrakurikuler baru di SMA Nasional</h1>
+                <h1 className={styles.title}>Arkanarii : Ekstrakurikuler baru di SMA Nasional Bandung</h1>
                 <div className={styles.user}>
                     <div className={styles.userImageContainer}>
                     <Image src="/nilou.jpg" alt="" fill className={styles.avatar} />
@@ -28,7 +28,7 @@ const SinglePage = () => {
                     <div className={styles.description}>
                         <h1>Arkanarii : Jurnalistik dan Fotografi</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, necessitatibus. Laboriosam obcaecati illo corrupti nulla cupiditate earum, iure quas deleniti molestiae ullam? Rem molestiae at harum iste. Quae, officiis ad?</p>
-                        <h2>Pendiri Arkanarii ?</h2>
+                        <h2>Siapa pencetus arkanarii ?</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure at provident nulla voluptatum maxime ratione aut voluptatibus soluta quibusdam sed, vel necessitatibus laboriosam dolorum excepturi et quis repudiandae saepe.</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure at provident nulla voluptatum maxime ratione aut voluptatibus soluta quibusdam sed, vel necessitatibus laboriosam dolorum excepturi et quis repudiandae saepe.</p>
                     </div>

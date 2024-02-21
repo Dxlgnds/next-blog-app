@@ -15,7 +15,7 @@ const Card = () => {
           </span>
         </div>
         <Link href="/posts/">
-          <h1>Ekstrakurikuler baru di SMA Nasional </h1>
+          <h1>Arkanarii : Ekstrakurikuler baru di SMA Nasional Bandung</h1>
         </Link>
         <p className={styles.desc}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis placeat aut quas tempore soluta dolore, ipsa quae.</p>
         <div className={styles.desc}/>

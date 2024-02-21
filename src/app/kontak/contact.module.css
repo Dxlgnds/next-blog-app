@@ -30,9 +30,3 @@
 .watsap{
     color: white;
 }
-
-@media screen and (max-width:640px){
-    .image{
-        display: none;
-    }
-}
