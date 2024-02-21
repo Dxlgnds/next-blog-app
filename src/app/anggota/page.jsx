@@ -18,7 +18,6 @@ const Anggota = () => {
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Azka Ramadhan</h3>
             <span className={styles.detail}>Fotografi</span>
-            <span className={styles.detail}>Fotografi</span>
           </div>
           <Link href="https://instagram.com/azkzr_" target='_blank'>
             <div className={styles.sosmed}>
@@ -47,7 +46,6 @@ const Anggota = () => {
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Raden Citra</h3>
             <span className={styles.detail}>Ketua Umum</span>
-            <span className={styles.detail}>Ketua Umum</span>
           </div>
           <Link href="https://instagram.com/__radencitra" target='_blank'>
             <div className={styles.sosmed}>
@@ -63,7 +61,6 @@ const Anggota = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Tubagus Kinaya</h3>
-            <span className={styles.detail}>Tim IT</span>
             <span className={styles.detail}>Tim IT</span>
           </div>
           <Link href="https://instagram.com/katz_una" target='_blank'>
@@ -92,7 +89,6 @@ const Anggota = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Ghanisa Shabi</h3>
-            <span className={styles.detail}>Sekretaris</span>
             <span className={styles.detail}>Sekretaris</span>
           </div>
           <Link href="https://instagram.com/shxbie__" target='_blank'>
