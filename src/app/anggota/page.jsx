@@ -3,7 +3,7 @@ import styles from './member.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Member = () => {
+const Anggota = () => {
 
   return (
     <div className={styles.container}>
@@ -17,6 +17,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Azka Ramadhan</h3>
+            <span className={styles.detail}>Fotografi</span>
             <span className={styles.detail}>Fotografi</span>
           </div>
           <Link href="https://instagram.com/azkzr_" target='_blank'>
@@ -46,6 +47,7 @@ const Member = () => {
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Raden Citra</h3>
             <span className={styles.detail}>Ketua Umum</span>
+            <span className={styles.detail}>Ketua Umum</span>
           </div>
           <Link href="https://instagram.com/__radencitra" target='_blank'>
             <div className={styles.sosmed}>
@@ -61,6 +63,7 @@ const Member = () => {
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Tubagus Kinaya</h3>
+            <span className={styles.detail}>Tim IT</span>
             <span className={styles.detail}>Tim IT</span>
           </div>
           <Link href="https://instagram.com/katz_una" target='_blank'>
@@ -90,6 +93,7 @@ const Member = () => {
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Ghanisa Shabi</h3>
             <span className={styles.detail}>Sekretaris</span>
+            <span className={styles.detail}>Sekretaris</span>
           </div>
           <Link href="https://instagram.com/shxbie__" target='_blank'>
             <div className={styles.sosmed}>
@@ -101,7 +105,7 @@ const Member = () => {
       <div className={styles.row}>
         <div className={styles.profile}>
           <div className={styles.imageContainer}>
-            <Image src="/nilou.jpg" width={75} height={75} className={styles.image}/>
+            <Image src="/p1.jpeg" width={75} height={75} className={styles.image}/>
           </div>
           <div className={styles.textContainer}>
             <h3 className={styles.username}>Muhammad Dinan</h3>
@@ -146,4 +150,4 @@ const Member = () => {
   )
 }
 
-export default Member
+export default Anggota
