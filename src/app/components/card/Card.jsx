@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className={styles.container}>
         <div className={styles.imageContainer}>
-          <Image src="/p1.jpeg" alt="" fill className={styles.image} />
+          <Image src="/arkanarii-post.png" alt="" fill className={styles.image} />
         </div>
       <div className={styles.textContainer}>
         <div className={styles.detail}>
@@ -17,7 +17,7 @@ const Card = () => {
         <Link href="/posts/">
           <h1>Arkanarii : Ekstrakurikuler baru di SMA Nasional Bandung</h1>
         </Link>
-        <p className={styles.desc}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis placeat aut quas tempore soluta dolore, ipsa quae.</p>
+        <p className={styles.desc}>Ekstrakurikuler Jurnalistik dan Fotografi.</p>
         <div className={styles.desc}/>
         <Link href="/posts/" className={styles.link}>
           Selengkapnya...

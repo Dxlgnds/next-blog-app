@@ -12,7 +12,7 @@ const Footer = () => {
           <h1 className={styles.logoText}>Arkanarii</h1>
         </div>
         <p className={styles.desc}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi numquam dolorem nemo amet perferendis modi quaerat facilis quos unde. Voluptates porro possimus, vero harum similique eveniet. Aliquid laudantium vitae eaque.
+        Arkanarii adalah ekstrakurikuler baru di SMA Nasional yang berfokus pada Jurnalistik dan Fotografi. Kami Meliput dan men - Dokumentasikan kegiatan yang terjadi di lingkungan sekolah.
         </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18}/>
@@ -34,14 +34,14 @@ const Footer = () => {
           <Link href="/">#arkanarii</Link>
           <Link href="/">#jurnalistik</Link>
           <Link href="/">#fotografi</Link>
-          <Link href="/">#levelup</Link>
+          <Link href="/">#itsarkanariitime</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social</span>
           <Link href="/">Facebook</Link>
-          <Link href="/">Instagram</Link>
-          <Link href="/">Tiktok</Link>
-          <Link href="/">Youtube</Link>
+          <Link href="https://www.instagram.com/arkanarii/" target='_blank'>Instagram</Link>
+          <Link href="https://www.tiktok.com/@arkanarii.official?_t=8lDp0MkWmAx&_r=1" target='_blank'>Tiktok</Link>
+          <Link href="https://www.youtube.com/@Arkanarii" target='_blank'>Youtube</Link>
         </div>
       </div>
     </div>

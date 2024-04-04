@@ -20,17 +20,25 @@ const SinglePage = () => {
                 </div>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/p1.jpeg" alt="" fill className={styles.image} />
+                <Image src="/15-mar.png" alt="" fill className={styles.image} />
             </div>
         </div>
             <div className={styles.content}>
                 <div className={styles.post}>
                     <div className={styles.description}>
                         <h1>Pembukaan SMARTTREN</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, necessitatibus. Laboriosam obcaecati illo corrupti nulla cupiditate earum, iure quas deleniti molestiae ullam? Rem molestiae at harum iste. Quae, officiis ad?</p>
+                        <p>Pada 15 Maret, SMA Nasional mengadakan Acara pembukaan SMARTTREN & Kedatangan Ust. Nana Gerhana. Simak keseruan nya di bawah ini !</p>
                         <h2>Wawancara bersama Ustadz Nana Gerhana</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure at provident nulla voluptatum maxime ratione aut voluptatibus soluta quibusdam sed, vel necessitatibus laboriosam dolorum excepturi et quis repudiandae saepe.</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure at provident nulla voluptatum maxime ratione aut voluptatibus soluta quibusdam sed, vel necessitatibus laboriosam dolorum excepturi et quis repudiandae saepe.</p>
+                        <p>Kami melakukan wawancara bersama Ustadz Nana Gerhana dengan beberapa pertanyaan seputar Acara SMARTTREN, diantaranya :</p>
+                        <p>Selengkapnya di Channel Youtube Kami :</p>
+                        <div className={styles.videos}>
+                        <iframe
+                            src="https://www.youtube.com/embed/c_wKILcqI8k"
+                            className={styles.iframe}
+                            frameborder="0"
+                            allowfullscreen
+                        />
+                        </div>
                     </div>
                 </div>
                 <Menu/>

@@ -12,8 +12,8 @@ const CardList = async () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Recent Posts</h1>
       <div className={styles.posts}>
-          <Post1 />
           <Post2 />
+          <Post1 />
           <Card />
       </div>
       <Pagination/>

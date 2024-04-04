@@ -20,17 +20,25 @@ const SinglePage = () => {
                 </div>
             </div>
             <div className={styles.imageContainer}>
-                <Image src="/p1.jpeg" alt="" fill className={styles.image} />
+                <Image src="/29-feb.png" alt="" fill className={styles.image} />
             </div>
         </div>
             <div className={styles.content}>
                 <div className={styles.post}>
                     <div className={styles.description}>
                         <h1>Kedatangan Syeikh Ahmad Taufiq Al - Hajj di SMA Nasional Bandung</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, necessitatibus. Laboriosam obcaecati illo corrupti nulla cupiditate earum, iure quas deleniti molestiae ullam? Rem molestiae at harum iste. Quae, officiis ad?</p>
-                        <h2>Tentang Palestina</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure at provident nulla voluptatum maxime ratione aut voluptatibus soluta quibusdam sed, vel necessitatibus laboriosam dolorum excepturi et quis repudiandae saepe.</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia iure at provident nulla voluptatum maxime ratione aut voluptatibus soluta quibusdam sed, vel necessitatibus laboriosam dolorum excepturi et quis repudiandae saepe.</p>
+                        <p>Pada 29 Februari, SMA Nasional kedatangan tamu istimewa yaitu syeikh asal Palestina : Syeikh Ahmad Taufiq Al - Hajj. Simak wawancara nya di bawah ini !</p>
+                        <h2>Wawancara Tentang Palestina</h2>
+                        <p>Kami melakukan wawancara bersama Syeikh Ahmad Taufiq Al - Hajj dengan beberapa pertanyaan seputar keadaan di Palestina, diantaranya :</p>
+                        <p>Selengkapnya di Channel Youtube Kami :</p>
+                        <div className={styles.videos}>
+                        <iframe
+                            src="https://www.youtube.com/embed/mL97SFgh6pU"
+                            className={styles.iframe}
+                            frameborder="0"
+                            allowfullscreen
+                        />
+                        </div>
                     </div>
                 </div>
                 <Menu/>
