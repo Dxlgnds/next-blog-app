@@ -45,7 +45,7 @@
     justify-content: center;
     width: 30px;
     height: 30px;
-    background-color: crimson;
+    background-color: #4040f0;
     border-radius: 10px;
 }
 
@@ -57,7 +57,7 @@
 
 .detail{
     font-size: 10px;
-    color: crimson;
+    color: #4040f0;
     text-transform: uppercase;
     font-weight: 500;
 }

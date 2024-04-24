@@ -9,6 +9,7 @@
     flex: 1;
     height: 350px;
     position: relative;
+    z-index: 0;
 }
 
 .image{
@@ -44,8 +45,28 @@
 }
 
 @media screen and (max-width:1280px) {
+    .container{
+        gap:25px;
+    }
     .imageContainer{
+        height: 160px;
+        width: 160px;
+    }
+    .textContainer{
+        gap: 3px;
+    }
+    .textContainer h1{
+        padding-bottom: 12px;   
+        font-size: 17px;
+    }
+    .desc{
+        font-size: 10px;
+    }
+    .date{
         display: none;
+    }
+    .link{
+        font-size: 10px;
     }
     
 }

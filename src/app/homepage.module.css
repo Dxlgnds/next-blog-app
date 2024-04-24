@@ -2,3 +2,23 @@
     display: flex;
     gap: 50px;
 }
+
+.mbl{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: none;
+}
+
+.image{
+    object-fit: cover;
+}
+
+@media screen and (max-width:640px){
+    .up{
+        display: none;
+    }
+    .mbl{
+        display: block;
+    }
+}

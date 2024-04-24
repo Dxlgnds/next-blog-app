@@ -4,17 +4,12 @@
 }
 
 .button{
-    width: 100px;
+    width: 100%;
     border: none;
-    padding: 16px;
-    background-color: #445fef;
+    padding: 8px;
+    background-color: #141414;
     color: white;
     cursor: pointer;
     text-align: center;
-    border-radius: 10px;
-}
-
-.button:disabled{
-    background-color: rgba(220, 20, 60, 0.171);
-    cursor: not-allowed;
+    border-radius: 50px;
 }

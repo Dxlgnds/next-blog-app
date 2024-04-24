@@ -26,6 +26,9 @@
 }
 
 .desc{
+    font-size: 15px;
+    text-align: justify;
+    hyphens: auto;
     font-weight: 300;
 }
 

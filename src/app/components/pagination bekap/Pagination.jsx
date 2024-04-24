@@ -10,7 +10,12 @@ const Pagination = () => {
       <button
         className={styles.button}
       >
-        Artikel Lainnya
+        Previous
+      </button>
+      <button
+        className={styles.button}
+      >
+        Next
       </button>
     </div>
   );

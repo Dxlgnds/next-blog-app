@@ -19,3 +19,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width:640px){
+    .subtitle{
+        font-size: 8px;
+    }
+}

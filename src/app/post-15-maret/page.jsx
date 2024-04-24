@@ -18,6 +18,9 @@ const SinglePage = () => {
                         <span className={styles.date}>15.03.2024</span>
                     </div>
                 </div>
+                <div className={styles.mblImg}>
+                        <Image src="/15-mar.png" alt="" fill className={styles.imgMbl} />
+                </div>
             </div>
             <div className={styles.imageContainer}>
                 <Image src="/15-mar.png" alt="" fill className={styles.image} />
@@ -26,11 +29,11 @@ const SinglePage = () => {
             <div className={styles.content}>
                 <div className={styles.post}>
                     <div className={styles.description}>
-                        <h1>Pembukaan SMARTTREN</h1>
+                        <h2>Pembukaan SMARTTREN</h2>
                         <p>Pada 15 Maret, SMA Nasional mengadakan Acara pembukaan SMARTTREN & Kedatangan Ust. Nana Gerhana. Simak keseruan nya di bawah ini !</p>
                         <h2>Wawancara bersama Ustadz Nana Gerhana</h2>
                         <p>Kami melakukan wawancara bersama Ustadz Nana Gerhana dengan beberapa pertanyaan seputar Acara SMARTTREN, diantaranya :</p>
-                        <p>Selengkapnya di Channel Youtube Kami :</p>
+                        <h2>Selengkapnya di Channel Youtube Kami :</h2>
                         <div className={styles.videos}>
                         <iframe
                             src="https://www.youtube.com/embed/c_wKILcqI8k"

@@ -15,7 +15,7 @@ const Card = () => {
           </span>
         </div>
         <Link href="/post-15-maret/">
-          <h1>Jurnal 15 Maret : Pembukaan Acara SMARTTREN di SMA Nasional Bandung</h1>
+          <h1>Pembukaan Acara SMARTTREN di SMA Nasional Bandung</h1>
         </Link>
         <p className={styles.desc}>Pada 15 Maret, SMA Nasional mengadakan Acara pembukaan SMARTTREN & Kedatangan Ust. Nana Gerhana  </p>
         <div className={styles.desc}/>

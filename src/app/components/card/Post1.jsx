@@ -15,7 +15,7 @@ const Card = () => {
           </span>
         </div>
         <Link href="/post-29-februari/">
-          <h1>Jurnal 29 Februari : Kedatangan Syeikh asal Palestina di SMA Nasional Bandung</h1>
+          <h1>Kedatangan Syeikh asal Palestina di SMA Nasional Bandung</h1>
         </Link>
         <p className={styles.desc}>Pada 29 Februari, SMA Nasional kedatangan tamu istimewa yaitu syeikh asal Palestina : Syeikh Ahmad Taufiq Al - Hajj</p>
         <div className={styles.desc}/>
